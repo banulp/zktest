@@ -56,7 +56,7 @@ public class TestController {
 
     @RequestMapping("message")
     public String message() {
-        return "Hello world. testmessage.";
+        return "Hello world. zookeepertest message.";
     }
 
     @RequestMapping("initCache")

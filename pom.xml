@@ -29,6 +29,7 @@
 			<artifactId>spring-cloud-starter-zookeeper-config</artifactId>
 		</dependency>
 
+<!--	이 설정이 없으면 등록이 안됨,,	-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zookeeper-all</artifactId>
