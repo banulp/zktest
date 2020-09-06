@@ -44,7 +44,7 @@ public class TestController {
 
         List<String> responseList = new ArrayList<>();
         for ( String url : list ) {
-            String callUrl = url + "/initCache";
+            String callUrl = url + "/evictAll";
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
             HttpEntity<String> entity = new HttpEntity<>(null, headers);
